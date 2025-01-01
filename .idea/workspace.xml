@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77d6a512-f5c3-4e6d-9850-830ecaca160a" name="Changes" comment="">
+    <list default="true" id="77d6a512-f5c3-4e6d-9850-830ecaca160a" name="Changes" comment="Домашняя работа по уроку 2&#10;Работа со сканером.">
+      <change afterPath="$PROJECT_DIR$/src/HomeWork.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utill.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +16,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -27,16 +34,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HomeWork.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "HomeWork__3",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/Владелец/Desktop/учеба/Папка для проектов/HW_2_ProductStar/src/Main.java"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="HomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork" />
       <module name="HW_2_ProductStar" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -44,6 +52,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWork" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -57,6 +67,30 @@
       <option name="presentableId" value="Default" />
       <updated>1735728957459</updated>
     </task>
+    <task id="LOCAL-00001" summary="Домашняя работа по уроку 2&#10;Работа со сканером.">
+      <option name="closed" value="true" />
+      <created>1735732974923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735732974923</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Домашняя работа по уроку 2&#10;Работа со сканером." />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашняя работа по уроку 2&#10;Работа со сканером." />
   </component>
 </project>
