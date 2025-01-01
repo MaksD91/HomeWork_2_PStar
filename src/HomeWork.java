@@ -3,38 +3,20 @@ import java.util.Arrays;
 public class HomeWork {
     public static void main(String[] args) {
 
-        Frend[] frends = {
-                new Frend("Tom", 11, true,2.3F),
-                new Frend("Don", 12, false, 2.1F),
-                new Frend("Max", 12, true, 5.4F),
-                new Frend("Pol", 13, false, 4.5F)
-        };
-        System.out.println("Мои друзья: " + Arrays.toString(frends));
+        int limit = 15;
 
+        for (int i = 0; i <= limit; i++) {
 
-    }
-}
+            if (i % 3 == 0 && i % 5 == 0 && i !=0) {
+                System.out.print("fizzbuzz ");
+            } else if (i % 3 == 0 && i !=0) {
+                System.out.print("fizz ");
+            } else if (i % 5 == 0 && i !=0) {
+                System.out.print("buzz ");
+            } else {
+                System.out.print(i + " ");
+            }
 
-class Frend {
-    private String name;
-    private int age;
-    boolean isFriendFromSchool;
-    float hoursSpentTogetherLastWeek;
-
-    public Frend(String name, int age, boolean isFriendFromSchool, float hoursSpentTogetherLastWeek) {
-        this.name = name;
-        this.age = age;
-        this.isFriendFromSchool = isFriendFromSchool;
-        this.hoursSpentTogetherLastWeek = hoursSpentTogetherLastWeek;
-    }
-
-    @Override
-    public String toString() {
-        return "Друг {" +
-                "имя ='" + name + '\'' +
-                ", возраст =" + age +
-                ", он друг из школы =" + isFriendFromSchool +
-                ", на прошлой неделе проведенных вместе часов =" + hoursSpentTogetherLastWeek +
-                '}';
+        }
     }
 }
